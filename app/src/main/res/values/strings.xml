@@ -2,6 +2,9 @@
     <string name="app_name">Activity2</string>
     <string name="length1">Length 1</string>
     <string name="length2">Length 2</string>
-    <string name="calculate">Calculate</string>
+    <string name="calculate">Select a shape</string>
     <string name="clear" >Clear</string>
+    <string name="tv_result">Result</string>
+    <string name="tv_calculate" />
+    <string name="button_calculate">Calculate</string>
 </resources>
