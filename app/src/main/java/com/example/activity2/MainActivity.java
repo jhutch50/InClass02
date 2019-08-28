@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tv_shape;
     private TextView tv_result;
+    private TextView tv_length2;
     private Button button_calculate;
     private Button button_clear;
     private ImageView triangle;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         et_length1 = findViewById(R.id.editLength1);
         et_length2 = findViewById(R.id.editLength2);
+        tv_length2 = findViewById(R.id.tv_Length2Lable);
         tv_result = findViewById(R.id.tv_result);
         tv_shape = findViewById(R.id.tv_shape);
         button_calculate = findViewById(R.id.button_calculate);
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 tv_shape.setText("Triangle");
                 et_length1.setVisibility(View.VISIBLE);
                 et_length2.setVisibility(View.VISIBLE);
-
+                tv_length2.setVisibility(View.VISIBLE);
 
             }
         });
@@ -75,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 tv_shape.setText("Circle");
                 et_length1.setVisibility(View.VISIBLE);
                 et_length2.setVisibility(View.GONE);
-
+                tv_length2.setVisibility(View.GONE);
 
             }
         });
@@ -87,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 tv_shape.setText("Square");
                 et_length1.setVisibility(View.VISIBLE);
                 et_length2.setVisibility(View.GONE);
-
+                tv_length2.setVisibility(View.GONE);
             }
         });
 

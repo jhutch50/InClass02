@@ -113,4 +113,29 @@
         app:layout_constraintTop_toBottomOf="@+id/editLength2"
         app:srcCompat="@drawable/square" />
 
+    <TextView
+        android:id="@+id/tv_Length1Lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/tv_lable1_length1"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Length2Lable"
+        app:layout_constraintEnd_toStartOf="@+id/editLength1"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Length2Lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_lable1_legnth2"
+        app:layout_constraintEnd_toStartOf="@+id/editLength2"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Length1Lable" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
