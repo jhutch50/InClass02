@@ -1,3 +1,11 @@
+/*
+* Assignment 2
+* Main Activity
+* Joshua Hutcheson
+* Ormelia Robinson
+* Hailey Brown
+* */
+
 package com.example.activity2;
 
 import androidx.appcompat.app.AppCompatActivity;
