@@ -1,7 +1,6 @@
 /*
-* Assignment name: Assignment 2
-* File name: MainActivity
-* Group Members:
+* Assignment 2
+* Main Activity
 * Joshua Hutcheson
 * Ormelia Robinson
 * Hailey Brown
